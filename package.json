@@ -4,8 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@types/ramda": "^0.28.22",
-    "puppeteer": "^19.6.2",
     "ramda": "^0.28.0"
   },
   "scripts": {
@@ -16,6 +14,7 @@
     "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
+    "@types/ramda": "^0.28.22",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^33.0.0",
