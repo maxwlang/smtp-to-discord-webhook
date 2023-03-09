@@ -15,5 +15,6 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': ['error', {
       ignoreIIFE: true
     }],
+    "@typescript-eslint/restrict-template-expressions": 'off'
   }
 }
