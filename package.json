@@ -2,7 +2,6 @@
   "name": "smtp-to-discord-webhook",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.287.0",
@@ -12,7 +11,7 @@
     "mailparser": "^3.6.4",
     "ramda": "^0.28.0",
     "smtp-server": "^3.11.0",
-    "string-strip-html": "^13.2.0",
+    "string-strip-html": "8.4.0",
     "uuid": "^9.0.0"
   },
   "scripts": {

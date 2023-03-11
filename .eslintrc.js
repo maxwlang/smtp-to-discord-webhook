@@ -1,20 +1,20 @@
 module.exports = {
     parserOptions: {
-        ecmaVersion: 2022
+        ecmaVersion: 2021
     },
     ignorePatterns: ['dist/**'],
     plugins: ['prettier'],
     extends: ['plugin:prettier/recommended'],
     env: {
         browser: false,
-        es2022: true
+        es2021: true
     },
     rules: {
         'prettier/prettier': [
             'error',
             {
                 arrowParens: 'avoid',
-                bracketSpacing: false,
+                bracketSpacing: true,
                 printWidth: 80,
                 quoteProps: 'consistent',
                 semi: false,
